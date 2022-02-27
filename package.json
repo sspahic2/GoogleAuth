@@ -1,0 +1,28 @@
+{
+  "name": "googleauth",
+  "version": "1.0.0",
+  "description": "This is a simple API project. It allows users to login using their Gmail account and then access some dummy data.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sspahic2/GoogleAuth.git"
+  },
+  "author": "Sabahudin Spahic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sspahic2/GoogleAuth/issues"
+  },
+  "homepage": "https://github.com/sspahic2/GoogleAuth#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "gcp-metadata": "^4.3.1",
+    "google-auth-library": "^7.14.0",
+    "googleapis": "^95.0.0",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  }
+}
